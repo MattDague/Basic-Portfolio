@@ -1,46 +1,76 @@
 header {
     display: inline-block;
     width: 100%;
-    margin: auto;
-    background: white;
+    margin: 0px;
+    background: #4aaaa5;
     border-bottom: solid gray 2px;
-    }
+}
+
+.logo {
+    float: left;
+}
 
 h1 {font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: #4aaaa5;
     color: white;
     margin-top: 0;
-    padding: 20px;
+    padding: 10px;
     position: relative;
     bottom: 0px;
     left: 0px;
 
-    }
+}
 
 h2 {font-family: Georgia, 'Times New Roman', Times, serif;
     color: #4aaaa5;
-    }
+}
 
-p {font-family: Arial, Helvetica, sans-serif;
+#write {font-family: Arial, Helvetica, sans-serif;
     color: #777777;
-    }
+    font-size: 20px;
+}
 
-body {background-image: url("../images/interlaced.png");
+body {
+    background-image: url("../images/interlaced.png");
+    margin: auto;
+}
+    
+li {
+    display: inline-block;
+    padding-right: 20px;
+}
+
+.aboutme {clear: both;
     width: 960px;
     margin: auto;
-    }
-    
-nav {float: right;
-    }
-
-#name  {float: left;
-    }
-
-.aboutme {clear: both
 }
 
 ul {list-style-type: none;
+    
 }
 
+.navigation {color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    float: right;
+   
+}
 
+.contact {width: 960px;
+margin: auto;
+background-color: white;
+padding: 15px;
+border: solid 2px gray;
+margin-top: 20px;
+width: 500px;
+}
 
+#picture {
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.portfolio { margin:auto;
+      
+}
