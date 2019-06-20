@@ -3,7 +3,7 @@ header {
     width: 100%;
     margin: 0px;
     background: #4aaaa5;
-    border-bottom: solid gray 2px;
+    border-bottom: solid gray 8px;
 }
 
 .logo {
@@ -35,7 +35,7 @@ h2 {
     color: #777777;
     font-size: 20px;
     margin: 15px;
-    height: 450px;
+    height: 400px;
 }
 
 body {
@@ -78,11 +78,7 @@ ul {
     width: 960px;
     margin: auto;
     background-color: white;
-    padding-left: 15px;
     padding-bottom:15px;
-    border: solid 2px gray;
-    margin-top: 20px;
-    width: 500px;
 
 }
 
@@ -93,15 +89,15 @@ ul {
     margin-bottom: 20px;
 }
 
-.portfolio { margin:auto;
+.portfolio {
+    margin:auto;
     width: 960px;
     background-color: white;
       
 }
 
-
-
-.projects {padding: 30px;
+.projects {
+    padding: 30px;
     display:inline-block;
 
 }
@@ -115,23 +111,63 @@ footer {
     position: relative;
     bottom:0px;
     background-color: #777777;
-    padding: 20px;
+    padding-top: 20px;
+    height: 50px;
     color: white;
     width: 100%;
     text-align: center;
     margin-top: 20px;
+    border-top: #4aaaa5 solid 8px;
+
 }
 
 form {
-    padding: 5px;
+    padding-left: 20px;
+    font-size: 16px;
 }
 
 .smallform {
-    width: 250px;
+    width: 500px;
 }
 
 #longform {
-    width: 400px;
+    width: 700px;
     height: 250px;
+}
 
+.site {
+    min-height: calc(100vh - 70px);
+}
+
+* {box-sizing: border-box}
+
+.container {
+    float: left;
+    position: relative;
+    width: 50%;
+    max-width: 360px;
+}
+
+.projects {
+
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.overlay {
+    position: absolute; 
+    bottom: 40px; 
+    left: 30px;
+    background: teal;
+    opacity: .8;
+    width: 300px;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.clear {
+    clear: both;
 }

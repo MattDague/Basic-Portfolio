@@ -1,46 +1,50 @@
 <!DOCTYPE html>
 <html>
 
-<head> 
+<head>
     <title>Matthew Dague's Portfolio</title>
     <link rel="stylesheet" href="reset.css" />
     <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
 </head>
 
+<body>
+        <main class="site">
 
-<header>
+    <header>
 
-        <div class="logo"><h1>Matthew Dague</h1></div>
-            <div class="navigation">
+        <div class="logo">
+            <h1>Matthew Dague</h1>
+        </div>
+        <div class="navigation">
             <ul>
                 <li><a class="links" href=index.html>About Me</a></li>
                 <li><a class="links" href=portfolio.html>Portfolio</a></li>
                 <li><a class="links" href=contact.html>Contact</a></li>
             </ul>
         </div>
-        
-</header>
+
+    </header>
 
 
 
-<body>
     <div class="contact">
-    <h2>Contact</h2>
+        <h2>Contact</h2>
 
-    <form>
-        <p>Name</p>
+        <form>
+            <p>Name</p>
             <input type="text" name="name" class="smallform" />
-        <p>Email</p>
+            <p>Email</p>
             <input type="text" name="email" class="smallform" />
-        <p>Message</p>
-            <Input type="text" name="message" id="longform" />
-        <br>
-        <br>
-        <input type="submit" name="submit" placeholder="Type in a message here...">
-    </form>
+            <p>Message</p>
+            <textarea id="longform"></textarea>
+            <br>
+            <br>
+            <input type="submit" name="submit">
+        </form>
     </div>
-
+    </main>
     <footer>Copyright</footer>
 
 </body>
+
 </html>
