@@ -139,8 +139,6 @@ form {
     min-height: calc(100vh - 70px);
 }
 
-* {box-sizing: border-box}
-
 .container {
     float: left;
     position: relative;
@@ -149,13 +147,14 @@ form {
 }
 
 .projects {
-
     display: block;
     width: 100%;
     height: auto;
+    box-sizing: border-box;
 }
 
 .overlay {
+    box-sizing: border-box;
     position: absolute; 
     bottom: 40px; 
     left: 30px;
