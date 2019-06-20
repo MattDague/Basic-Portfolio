@@ -15,10 +15,11 @@ h1 {
     background-color: #4aaaa5;
     color: white;
     margin-top: 0;
-    padding: 10px;
     position: relative;
     bottom: 0px;
     left: 0px;
+    padding-top: 20px;
+    padding-left: 30px;
 
 }
 
@@ -26,6 +27,7 @@ h2 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #4aaaa5;
     margin: 15px;
+    padding-top: 10px;
 }
 
 #write {
@@ -59,21 +61,29 @@ ul {
 }
 
 .navigation {
-    color: white;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 22px;
     float: right;
+    padding-top: 5px;
    
+}
+
+.links {
+    text-decoration: none;
+    color: white;
+
 }
 
 .contact {
     width: 960px;
     margin: auto;
     background-color: white;
-    padding: 15px;
+    padding-left: 15px;
+    padding-bottom:15px;
     border: solid 2px gray;
     margin-top: 20px;
     width: 500px;
+
 }
 
 #picture {
@@ -110,4 +120,18 @@ footer {
     width: 100%;
     text-align: center;
     margin-top: 20px;
+}
+
+form {
+    padding: 5px;
+}
+
+.smallform {
+    width: 250px;
+}
+
+#longform {
+    width: 400px;
+    height: 250px;
+
 }
