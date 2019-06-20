@@ -10,7 +10,8 @@ header {
     float: left;
 }
 
-h1 {font-family: Georgia, 'Times New Roman', Times, serif;
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: #4aaaa5;
     color: white;
     margin-top: 0;
@@ -21,13 +22,17 @@ h1 {font-family: Georgia, 'Times New Roman', Times, serif;
 
 }
 
-h2 {font-family: Georgia, 'Times New Roman', Times, serif;
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
     color: #4aaaa5;
+    margin: 15px;
 }
 
-#write {font-family: Arial, Helvetica, sans-serif;
+#write {
+    font-family: Arial, Helvetica, sans-serif;
     color: #777777;
     font-size: 20px;
+    margin: 15px;
 }
 
 body {
@@ -40,37 +45,61 @@ li {
     padding-right: 20px;
 }
 
-.aboutme {clear: both;
+.aboutme {
+    clear: both;
     width: 960px;
     margin: auto;
+    background-color: white;
 }
 
-ul {list-style-type: none;
+ul {
+    list-style-type: none;
     
 }
 
-.navigation {color: white;
+.navigation {
+    color: white;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 22px;
     float: right;
    
 }
 
-.contact {width: 960px;
-margin: auto;
-background-color: white;
-padding: 15px;
-border: solid 2px gray;
-margin-top: 20px;
-width: 500px;
+.contact {
+    width: 960px;
+    margin: auto;
+    background-color: white;
+    padding: 15px;
+    border: solid 2px gray;
+    margin-top: 20px;
+    width: 500px;
 }
 
 #picture {
     float: left;
     margin-right: 20px;
+    margin-left: 20px;
     margin-bottom: 20px;
 }
 
 .portfolio { margin:auto;
+    width: 960px;
+    background-color: white;
       
+}
+
+
+
+.projects {padding: 30px;
+    display:inline-block;
+
+}
+
+.allprojects {
+    align-content: space-around;
+
+}
+
+footer {
+    position: absolute;
 }
