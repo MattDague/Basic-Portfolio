@@ -33,6 +33,7 @@ h2 {
     color: #777777;
     font-size: 20px;
     margin: 15px;
+    height: 450px;
 }
 
 body {
@@ -101,5 +102,12 @@ ul {
 }
 
 footer {
-    position: absolute;
+    position: relative;
+    bottom:0px;
+    background-color: #777777;
+    padding: 20px;
+    color: white;
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
 }
